@@ -3,7 +3,7 @@ Minor-Equilibria-RP Package
 A package to find equilibria under ``Solar Radiation Pressure`` perturbation around irregular-shaped minor bodies, such as Asteroids and Comets.
 ---------------------------------
 
-I've implemented a modified version of the original POLYHEDRON code from D. Tsoulis into the Minor-Equilibria-RP package, that can compute the gravitational potential, and its first and second derivatives of a homogenous polyhedron under Solar Radiation Pressure (Mignard, 1984) perturbation (subroutine ``mfo_pr.for``), according to Petrovic (J of G, 1996). In addition, the Minor-Equilibria package also can handle equilibrium points through mascons method. It was developed three types of algorithms called ``spider``, ``random`` and ``middle``, that can find automatically each equilibrium point around an irregular-shaped minor body to study their stabilities under Solar Radiation Pressure perturbation, through a defined metric space.
+I've implemented a modified version of the original POLYHEDRON code from D. Tsoulis into the Minor-Equilibria-RP package, that can compute the gravitational potential, and its first and second derivatives of a homogenous polyhedron under Solar Radiation Pressure (Mignard, 1984) perturbation (subroutine ``mfo_pr.for``), according to Petrovic (J of G, 1996). In addition, the Minor-Equilibria package also can handle equilibrium points through mascons method. It was developed three types of algorithms called ``Spider``, ``Random`` and ``Middle``, that can find automatically each equilibrium point around an irregular-shaped minor body to study their stabilities under Solar Radiation Pressure perturbation, through a defined metric space.
 
 Notable contents of this repository
 ---------------------------
@@ -56,7 +56,7 @@ Or use the ``Makefile:``
 
 Or use the executable files ``minor-equilibria-rp_gfort`` or ``minor-equilibria-rp_ifort`` for Linux and Mac OS X compilers ``gfortran`` or ``ifort``, respectively:
 
-   First type ``chmod +x minor-equilibria-rp_gfort`` and after that to run your code using ``./minor-equilibria-rp_gfort``.
+   First type ``chmod +x minor-equilibria-rp_gfort`` and after that run your code using ``./minor-equilibria-rp_gfort``.
 
 Tricks and Caveats
 ------------------
@@ -66,7 +66,7 @@ Unfortunately, the code needs to be recompiled any time parameters in the ``equi
 Disclaimers
 ------------
 
-* The changes have only been tested with the ``spider`` method.  Use other methods at your own risk.
+* The changes have only been tested with the ``Spider`` method.  Use other methods at your own risk.
 * I've fixed all the errors I've found.  If you find a bug, let me know so we can try to fix it.
 * Any feedback is appreciated, especially bugs, suggestions, or possible contributions.
 * Are you going to publish? Please acknowledge the use of my code in any publication referencing:
@@ -75,3 +75,9 @@ Disclaimers
 
 * The main source code of this repository is available on reasonable request.
 
+Recent Publications
+-------------------
+
+The code was used in the following recent study:
+
+* Amarante, A., Winter, O. C., Sfair, R. (2020), Stability and Evolution of Fallen Particles Around the Surface of Asteroid (101955) Bennu. JGR Planets.
