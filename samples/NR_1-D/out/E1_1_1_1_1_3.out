@@ -1,0 +1,45 @@
+
+The coordinate (X) of the equilibrium point P in km is: 2.200436336204772E-01
+The coordinate (Y) of the equilibrium point P in km is:-2.348914095009041E-01
+The coordinate (Z) of the equilibrium point P in km is:-2.841224295068760E-03
+-------------------------------------------------------------------
+
+The gravitational potential (U) in km^2*sec^-2 at P is: 1.649316195558313E-08
+-------------------------------------------------------------------
+
+The first derivative       (Ux) in   km*sec^-2 at P is:-3.629474433040963E-08
+The first derivative       (Uy) in   km*sec^-2 at P is: 3.874376432054331E-08
+The first derivative       (Uz) in   km*sec^-2 at P is:-3.522964364541056E-15
+-------------------------------------------------------------------
+
+Length of the attraction vector in   km*sec^-2 at P is: 5.308848971044118E-08
+phi   (angle to x-axis in degrees) : 133.13071
+theta (angle to y-axis in degrees) :  43.13071
+omega (angle to z-axis in degrees) :  90.00000
+
+-------------------------------------------------------------------
+
+The second  derivative    (Uxx) in     sec^-2 at P is: 9.098847977364856E-08
+The second  derivative    (Uyy) in     sec^-2 at P is: 1.059148576948957E-07
+The second  derivative    (Uzz) in     sec^-2 at P is:-1.969033374685442E-07
+
+-------------------------------------------------------------------
+The Laplace equation ( Uxx + Uyy + Uzz ) at P gives  : 2.646977960169689E-23
+-------------------------------------------------------------------
+
+The second  derivative    (Uxy) in     sec^-2 at P is:-2.564078112683821E-07
+The second  derivative    (Uxz) in     sec^-2 at P is:-5.007372052758228E-10
+The second  derivative    (Uyx) in     sec^-2 at P is:-2.564078112683821E-07
+The second  derivative    (Uyz) in     sec^-2 at P is:-3.282469297790510E-09
+The second  derivative    (Uzx) in     sec^-2 at P is:-5.007372052758228E-10
+The second  derivative    (Uzy) in     sec^-2 at P is:-3.282469297790510E-09
+
+-------------------------------------------------------------------
+
+The Jacobi Constant (J) or (V) in km^2*sec^-2 at P is:-2.503659061145760E-08
+
+-------------------------------------------------------------------
+
+The Rotation Period in hours is: 4.297460000000000E+00
+Density: 1.260000000000000E+12
+

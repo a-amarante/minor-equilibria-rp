@@ -19,9 +19,9 @@
  number of subdivisions in z = 1
  accuracy of the equilibrium point (coordinates criteria for NR methods) = 1.0d-5
  accuracy criteria (spi, ran and mid methods --> vn -> 0, f/f' -> 1) = 0
- maximum number of iterations = 100
- use Newton-Raphson method 1-D = no
- use Newton-Raphson method 3-D = yes
+ maximum number of iterations = 1000
+ use Newton-Raphson method 1-D = yes
+ use Newton-Raphson method 3-D = no
 )---------------------------------------------------------------------
  which method do you wanna use (spider, random points, middle point) = spi
  delta's radius (spider method) (0=automatic/random) = 0.001

@@ -3,7 +3,7 @@ Minor-Equilibria-RP Package
 A package to find equilibria (dynamical substitutes) under Solar Radiation Pressure perturbation around irregular-shaped minor bodies, such as Asteroids and Comets.
 ---------------------------------
 
-I've implemented a modified version of the original POLYHEDRON code from D. Tsoulis into the Minor-Equilibria-RP package, that can compute the gravitational potential, and its first and second derivatives of a homogenous polyhedron under Solar Radiation Pressure (Burns et al., 1979; Mignard, 1984) perturbation (subroutine ``mfo_pr.for``), according to Petrovic (J of G, 1996). In addition, the Minor-Equilibria package also can handle equilibrium points through mascons method. It was developed three types of algorithms called ``Spider``, ``Random`` and ``Middle``, that can find automatically each equilibrium point (dynamical substitute; Xin et al., 2015) around an irregular-shaped minor body to study their stabilities under Solar Radiation Pressure perturbation, through a defined metric space.
+I've implemented a modified version of the original POLYHEDRON code from D. Tsoulis into the Minor-Equilibria-RP package, that can compute the gravitational potential, and its first and second derivatives of a homogenous polyhedron under Solar Radiation Pressure (Burns et al., 1979; Mignard, 1984) perturbation (subroutine ``mfo_pr.for``), according to Petrovic (J of G, 1996). In addition, the Minor-Equilibria-RP package also can handle equilibrium points through mascons method (Geissler et al., 1996). It was developed three types of algorithms called ``Spider``, ``Random`` and ``Middle``, that can find automatically each equilibrium point (dynamical substitute; Xin et al., 2015) around an irregular-shaped minor body to study their stabilities under Solar Radiation Pressure perturbation, through a defined metric space.
 
 Notable contents of this repository
 ---------------------------
@@ -42,7 +42,7 @@ Current package is preconfigured for Linux and Mac OS X users with compile and c
 
    ``gfortran minor-equilibria-rp.for -o minor-equilibria-rp``
 
-There will likely be warnings due to the code being written in FORTRAN77, but it should compile.  Copy or link the executable wherever you want (wherever your input files are) to run your code using ``./minor-equilibria``.
+There will likely be warnings due to the code being written in FORTRAN77, but it should compile.  Copy or link the executable wherever you want (wherever your input files are) to run your code using ``./minor-equilibria-rp``.
 
 Or use ifort compiler for no warnings:
 
@@ -61,7 +61,7 @@ Or use the executable files ``minor-equilibria-rp_gfort`` or ``minor-equilibria-
 Tricks and Caveats
 ------------------
 
-Unfortunately, the code needs to be recompiled any time parameters in the ``equilibrium.inc`` and ``swift.inc`` files get changed.
+Unfortunately, the code needs to be recompiled any time parameters in the ``equilibrium.inc`` and ``swift.inc`` files get changed. However, these parameters do not need to be adjusted often or almost never.
 
 Disclaimers
 ------------
